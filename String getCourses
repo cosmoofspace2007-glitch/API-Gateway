@@ -1,0 +1,8 @@
+@GetMapping
+public String getCourses(
+
+        @RequestHeader("X-User-Role") String role){
+
+    return "Role: " + role;
+
+}
